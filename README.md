@@ -8,8 +8,8 @@ The CV is written in YAML and compiled into a PDF using RenderCV, making it easy
 
 ```text
 .
-├── rendercv.yaml      # Main CV source
-├── output/            # Generated PDF
+├── Mattia_Volpato_CV.yaml      # Main CV source
+├── rendercv_output/            # Generated cv files (pdf, md, ...)
 └── README.md
 ```
 
@@ -18,21 +18,15 @@ The CV is written in YAML and compiled into a PDF using RenderCV, making it easy
 - Python 3.10+
 - RenderCV
 
-Install RenderCV with:
-
-```bash
-pip install rendercv
-```
-
 ## Build
 
 Generate the PDF with:
 
 ```bash
-rendercv render
+rendercv render Mattia_Volpato_CV.yaml
 ```
 
-The compiled CV will be available in the `output/` directory.
+The compiled CV will be available in the `rendercv_output/` directory.
 
 ## License
 
