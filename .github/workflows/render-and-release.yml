@@ -1,0 +1,70 @@
+name: Render CV and Create Release
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'Mattia_Volpato_CV.yaml'
+      - '.github/workflows/render-and-release.yml'
+      - 'requirements.txt'
+
+permissions:
+  contents: write
+
+jobs:
+  render-and-release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install RenderCV and dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Render CV
+        run: |
+          rendercv render Mattia_Volpato_CV.yaml
+
+      - name: Get version from timestamp
+        id: version
+        run: |
+          echo "version=$(date +'%Y.%m.%d')" >> "$GITHUB_OUTPUT"
+
+      - name: Create Release and Upload Assets
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ steps.version.outputs.version }}
+          name: CV Release - ${{ steps.version.outputs.version }}
+          draft: false
+          prerelease: false
+          body: |
+            Automatically rendered CV for Mattia Volpato
+
+            **Files included:**
+            - PDF version
+            - HTML version
+            - Markdown version
+            - Typst source
+          files: |
+            ./rendercv_output/Mattia_Volpato_CV_1.png
+            ./rendercv_output/Mattia_Volpato_CV_2.png
+            ./rendercv_output/Mattia_Volpato_CV.pdf
+            ./rendercv_output/Mattia_Volpato_CV.html
+            ./rendercv_output/Mattia_Volpato_CV.md
+            ./rendercv_output/Mattia_Volpato_CV.typ
+
+      - name: Commit rendered files to repo (optional)
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add rendercv_output/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: update rendered CV files" && git push)
