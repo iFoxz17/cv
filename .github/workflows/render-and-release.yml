@@ -21,14 +21,14 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v4
         with:
           python-version: '3.11'
 
       - name: Install RenderCV and dependencies
         run: |
           pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install rendercv[full]
 
       - name: Render CV
         run: |
@@ -48,19 +48,13 @@ jobs:
           prerelease: false
           body: |
             Automatically rendered CV for Mattia Volpato
-
+            
             **Files included:**
             - PDF version
-            - HTML version
             - Markdown version
-            - Typst source
           files: |
-            ./rendercv_output/Mattia_Volpato_CV_1.png
-            ./rendercv_output/Mattia_Volpato_CV_2.png
-            ./rendercv_output/Mattia_Volpato_CV.pdf
-            ./rendercv_output/Mattia_Volpato_CV.html
-            ./rendercv_output/Mattia_Volpato_CV.md
-            ./rendercv_output/Mattia_Volpato_CV.typ
+            ./rendercv_output/mattia_volpato_cv.pdf
+            ./rendercv_output/mattia_volpato_cv.md
 
       - name: Commit rendered files to repo (optional)
         run: |
