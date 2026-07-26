@@ -46,7 +46,8 @@ cv:
         location: Milan, Italy
         summary: Final Grade 110/110 cum laude
         highlights:
-          - 'Thesis: Delay Prediction in Supply Chains - A Hybrid Graph-Based and Machine Learning Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.'
+          - >
+            'Thesis: Delay Prediction in Supply Chains - A Hybrid Graph-Based and Machine Learning Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.'
       
       - institution: University of Milano Bicocca
         area: Computer Science
@@ -57,7 +58,8 @@ cv:
         location: Milan, Italy
         summary: Final Grade 110/110 cum laude
         highlights:
-          - 'Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a Rust prototype for efficient graph-based sequence analysis.'
+          - >
+            'Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a Rust prototype for efficient graph-based sequence alignment.'
     
     experience:
 
@@ -93,12 +95,11 @@ cv:
             governance and self-service analytics.
 
           - >
-            Technologies: Python, PySpark, SQL, Databricks, Apache Spark,
-            Azure Service Bus, Jinja, Fivetran, Witboost, Terraform,
-            Data Mesh, Git.
+            Technologies & Tools: Python, PySpark, SQL, Databricks, Apache Spark,
+            Azure Service Bus, Jinja, Witboost, Terraform, Data Mesh, Git.
 
       - company: Cefriel
-        position: Junior Software Developer
+        position: Software Engineer
         start_date: 2025-02
         end_date: 2025-09
         location: Milan, Italy
@@ -120,7 +121,7 @@ cv:
             to deployment within a Horizon Europe research project.
 
           - >
-            Technologies: Python, Scikit-Learn, AWS Lambda, AWS CDK,
+            Technologies & Tools: Python, Scikit-Learn, AWS Lambda, AWS CDK,
             SQL, Graph Theory, Machine Learning.
 
       - company: Andreoli Nastri S.n.c.
@@ -130,8 +131,8 @@ cv:
         location: Cologno Monzese, Italy
 
         summary: >
-          Designed and developed a complete desktop business application for an
-          Italian manufacturing SME, managing the project from requirements
+          Designed and developed a complete desktop business application for a
+          manufacturing SME, managing the project from requirements
           analysis through architecture, implementation and deployment.
 
         highlights:
@@ -186,7 +187,7 @@ cv:
             for geospatial workloads.
 
           - >
-            Technologies: Java, Spring Boot, PostgreSQL, MongoDB,
+            Technologies: Java, Spring Boot, PostgreSQL, MongoDB, ActiveMQ,
             Docker, Kubernetes.
 
       - name: "[Supply Chain Delay Prediction](https://github.com/iFoxz17/sc-delay-prediction)"
@@ -209,7 +210,7 @@ cv:
             collected within the M4ESTRO Horizon Europe project.
 
           - >
-            Technologies: Python, Scikit-Learn, SQL, Graph Theory.
+            Technologies: Python, Scikit-Learn, SQL, Graph Theory, AWS.
 
       - name: "[Wavefront Algorithm for Sequence Alignment](https://github.com/iFoxz17/WF_Recgraph)"
         start_date: 2023-02
@@ -222,14 +223,14 @@ cv:
 
         highlights:
           - >
-            Implemented the Wavefront sequence alignment algorithm in Rust
+            Developed and implemented the Wavefront sequence alignment algorithm in Rust
             for graph-based genome representations.
 
           - >
             Studied optimization strategies for graph algorithms and memory usage.
 
           - >
-            Technologies: Rust, Algorithms, Graph Algorithms.
+            Technologies: Rust, Bioinformatics, Algorithms, Graph Algorithms.
 
 #      - name: "[AlgoVault](https://github.com/iFoxz17/algovault)"
 #        start_date: 2025-11
@@ -261,19 +262,27 @@ cv:
 #          - Investigated self-supervised learning.
 #          - Technologies: TensorFlow, Keras.
     
-    # publications:
-      # Future publications can be added here.
-      #
-      # Example:
-      #
-      # - title: Delay Prediction in Supply Chains
-      #   authors:
-      #     - Mattia Volpato
-      #   summary:
-      #   doi:
-      #   url:
-      #   journal: Open Research Europe
-      #   date:
+#    publications:
+#      - title: Hybrid Graph-Based Machine Learning Framework for Predicting Delays in Supply Chain Logistics
+#        authors:
+#          - Mattia Volpato
+#        summary:
+#        doi: 10.5281/zenodo.18613308
+#        url: https://doi.org/10.5281/zenodo.18613308
+#        journal: Open Research Europe
+#        date:
+
+#      - title: Next Level Unlocked: (Almost) Ready for Adaptive Urban Air Mobility
+#        authors:
+#          - Claudia Raibulet
+#          - Alessandro Gilardi
+#          - Ilias Gerostathopoulos
+#          - Mattia Volpato
+#        summary:
+#        doi: 
+#        url:
+#        journal: IEEE Software
+#        date:
 
 
 #    selected_honors:
@@ -474,7 +483,6 @@ settings:
     - Rust
     - Spring Boot
     - Spring Framework
-    - Hibernate
     - PostgreSQL
     - MongoDB
     - Neo4j
@@ -484,16 +492,12 @@ settings:
     - Graph Theory
     - Distributed Systems
     - Microservices
-    - REST APIs
     - Apache Spark
     - PySpark
     - Databricks
-    - Data Mesh
     - Docker
     - Kubernetes
     - Terraform
-    - Machine Learning
-    - Scikit-Learn
     - AWS
     - Data Engineering
     - Software Engineering

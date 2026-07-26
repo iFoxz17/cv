@@ -54,13 +54,11 @@ jobs:
             - PDF version
             - Markdown version
             - HTML version
-            - Typst version
           files: |
             ./rendercv_output/Mattia_Volpato_CV.pdf
             ./rendercv_output/Mattia_Volpato_CV.md
             ./rendercv_output/Mattia_Volpato_CV.html
-            ./rendercv_output/Mattia_Volpato_CV.typ
-
+            
       - name: Commit rendered files to repo (optional)
         run: |
           git config --local user.email "action@github.com"
