@@ -23,12 +23,12 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
-          python-version: '3.11'
+          python-version: '3.13'   # rendercv requires >=3.12; on 3.11 pip silently falls back to the last-compatible 2.3, which is broken
 
       - name: Install RenderCV and dependencies
         run: |
           pip install --upgrade pip setuptools wheel
-          pip install --no-cache-dir "rendercv[full]"
+          pip install --no-cache-dir -r requirements.txt
           rendercv --version
 
       - name: Render CV
@@ -49,13 +49,17 @@ jobs:
           prerelease: false
           body: |
             Automatically rendered CV for Mattia Volpato
-            
+
             **Files included:**
             - PDF version
             - Markdown version
+            - HTML version
+            - Typst version
           files: |
-            ./rendercv_output/mattia_volpato_cv.pdf
-            ./rendercv_output/mattia_volpato_cv.md
+            ./rendercv_output/Mattia_Volpato_CV.pdf
+            ./rendercv_output/Mattia_Volpato_CV.md
+            ./rendercv_output/Mattia_Volpato_CV.html
+            ./rendercv_output/Mattia_Volpato_CV.typ
 
       - name: Commit rendered files to repo (optional)
         run: |
