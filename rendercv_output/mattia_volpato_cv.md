@@ -17,9 +17,9 @@ Oct 2023 – Sept 2025
 
 Final Grade 110/110 cum laude
 
-- Thesis: Delay Prediction in Supply Chains
+- 'Thesis: Delay Prediction in Supply Chains
 
-  - A Hybrid Graph-Based and **Machine Learning** Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.
+  - A Hybrid Graph-Based and Machine Learning Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.'
 
 
 
@@ -28,7 +28,7 @@ Sept 2020 – July 2023
 
 Final Grade 110/110 cum laude
 
-- Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a **Rust** prototype for efficient graph-based sequence analysis.
+- 'Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a **Rust** prototype for efficient graph-based sequence alignment.'
 
 
 
@@ -53,7 +53,7 @@ Data Engineer designing scalable software and data-intensive platforms for enter
 
 
 
-- Designed and maintained enterprise data products for TeamSystem, covering the complete lifecycle from ingestion and transformation to analytics within a **Data Mesh** architecture.
+- Designed and maintained enterprise data products for TeamSystem, covering the complete lifecycle from ingestion and transformation to analytics within a Data Mesh architecture.
 
 
 
@@ -61,11 +61,11 @@ Data Engineer designing scalable software and data-intensive platforms for enter
 
 
 
-- Technologies: **Python**, **PySpark**, **SQL**, **Databricks**, **Apache Spark**, Azure Service Bus, Jinja, Fivetran, Witboost, **Terraform**, **Data Mesh**, Git.
+- Technologies & Tools: **Python**, **PySpark**, **SQL**, **Databricks**, **Apache Spark**, Azure Service Bus, Jinja, Witboost, **Terraform**, Data Mesh, Git.
 
 
 
-## **Junior Software Developer**, Cefriel -- Milan, Italy
+## **Software Engineer**, Cefriel -- Milan, Italy
 
 Feb 2025 – Sept 2025
 
@@ -89,7 +89,7 @@ Backend software engineering for M4ESTRO, a Horizon Europe research project focu
 
 
 
-- Technologies: **Python**, **Scikit-Learn**, **AWS** Lambda, **AWS** CDK, **SQL**, **Graph Theory**, **Machine Learning**.
+- Technologies & Tools: **Python**, Scikit-Learn, **AWS** Lambda, **AWS** CDK, **SQL**, **Graph Theory**, Machine Learning.
 
 
 
@@ -101,7 +101,7 @@ July 2024 – June 2026
 
 2 years
 
-Designed and developed a complete desktop business application for an Italian manufacturing SME, managing the project from requirements analysis through architecture, implementation and deployment.
+Designed and developed a complete desktop business application for a manufacturing SME, managing the project from requirements analysis through architecture, implementation and deployment.
 
 
 
@@ -109,7 +109,7 @@ Designed and developed a complete desktop business application for an Italian ma
 
 
 
-- Designed the relational database model using Spring Data JPA, **Hibernate** and **PostgreSQL**.
+- Designed the relational database model using Spring Data JPA, Hibernate and **PostgreSQL**.
 
 
 
@@ -117,7 +117,7 @@ Designed and developed a complete desktop business application for an Italian ma
 
 
 
-- Technologies: **Java**, **Spring Boot**, **Java** Swing, **Hibernate**, **PostgreSQL**, Neon, Flyway.
+- Technologies: **Java**, **Spring Boot**, **Java** Swing, Hibernate, **PostgreSQL**, Neon, Flyway.
 
 
 
@@ -138,11 +138,11 @@ Cloud-native distributed platform for the safe integration of drones into Europe
 
 
 
-- Designed backend services, **REST APIs** and optimized persistence for geospatial workloads.
+- Designed backend services, REST APIs and optimized persistence for geospatial workloads.
 
 
 
-- Technologies: **Java**, **Spring Boot**, **PostgreSQL**, **MongoDB**, **Docker**, **Kubernetes**.
+- Technologies: **Java**, **Spring Boot**, **PostgreSQL**, **MongoDB**, ActiveMQ, **Docker**, **Kubernetes**.
 
 
 
@@ -166,7 +166,7 @@ Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO project. 
 
 
 
-- Technologies: **Python**, **Scikit-Learn**, **SQL**, **Graph Theory**.
+- Technologies: **Python**, Scikit-Learn, **SQL**, **Graph Theory**, **AWS**.
 
 
 
@@ -182,7 +182,7 @@ Bachelor's thesis implementing a **Rust** prototype of the Wavefront algorithm f
 
 
 
-- Implemented the Wavefront sequence alignment algorithm in **Rust** for graph-based genome representations.
+- Developed and implemented the Wavefront sequence alignment algorithm in **Rust** for graph-based genome representations.
 
 
 
@@ -190,22 +190,22 @@ Bachelor's thesis implementing a **Rust** prototype of the Wavefront algorithm f
 
 
 
-- Technologies: **Rust**, **Algorithms**, Graph **Algorithms**.
+- Technologies: **Rust**, Bioinformatics, **Algorithms**, Graph **Algorithms**.
 
 
 
 # Skills
 **Programming Languages:** **Java**, **Python**, C++, **Rust**, **SQL**
 
-****Software Engineering**:** **Java**, **Spring Boot**, **REST APIs**, **Microservices**, **Distributed Systems**, Software Architecture
+****Software Engineering**:** **Java**, **Spring Boot**, REST APIs, **Microservices**, **Distributed Systems**, Software Architecture
 
-****Data Engineering**:** **Python**, **Apache Spark**, **PySpark**, **Databricks**, **SQL**, ETL Pipelines, **Data Mesh**
+****Data Engineering**:** **Python**, **Apache Spark**, **PySpark**, **Databricks**, **SQL**, ETL Pipelines, Data Mesh
 
 **Databases:** **PostgreSQL**, **MongoDB**, **Neo4j**, BigQuery
 
 **Cloud:** **Docker**, **Kubernetes**, **Terraform**, **AWS**, Git, Linux
 
-**Computer Science:** **Algorithms**, **Data Structures**, **Graph Theory**, **Machine Learning**
+**Computer Science:** **Algorithms**, **Data Structures**, **Graph Theory**, Machine Learning
 
 # Languages
 **Italian:** Native
