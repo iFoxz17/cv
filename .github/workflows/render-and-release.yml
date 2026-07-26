@@ -28,7 +28,7 @@ jobs:
       - name: Install RenderCV and dependencies
         run: |
           pip install --upgrade pip setuptools wheel
-          pip install --no-cache-dir "rendercv"
+          pip install --no-cache-dir "rendercv[full]"
           rendercv --version
 
       - name: Render CV
