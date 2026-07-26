@@ -27,12 +27,13 @@ jobs:
 
       - name: Install RenderCV and dependencies
         run: |
-          pip install --upgrade pip
-          pip install rendercv[full]
+          pip install --upgrade pip setuptools wheel
+          pip install --no-cache-dir "rendercv[full]"
+          rendercv --version
 
       - name: Render CV
         run: |
-          rendercv render Mattia_Volpato_CV.yaml
+          rendercv render Mattia_Volpato_CV.yaml --output-folder rendercv_output
 
       - name: Get version from timestamp
         id: version
