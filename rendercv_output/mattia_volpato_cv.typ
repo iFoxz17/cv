@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 7,
-    day: 26,
+    day: 31,
   ),
 )
 
@@ -112,9 +112,9 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     #summary[Final Grade 110\/110 cum laude]
 
-    - Thesis: Delay Prediction in Supply Chains
+    - 'Thesis: Delay Prediction in Supply Chains
 
-    - A Hybrid Graph-Based and #strong[Machine Learning] Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.
+    - A Hybrid Graph-Based and Machine Learning Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.'
 
   ],
   [
@@ -129,7 +129,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     #summary[Final Grade 110\/110 cum laude]
 
-    - Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a #strong[Rust] prototype for efficient graph-based sequence analysis.
+    - 'Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a #strong[Rust] prototype for efficient graph-based sequence alignment.'
 
   ],
   [
@@ -156,7 +156,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Designed and maintained enterprise data products for TeamSystem, covering the complete lifecycle from ingestion and transformation to analytics within a #strong[Data Mesh] architecture.
+    - Designed and maintained enterprise data products for TeamSystem, covering the complete lifecycle from ingestion and transformation to analytics within a Data Mesh architecture.
 
     
 
@@ -164,7 +164,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Python], #strong[PySpark], #strong[SQL], #strong[Databricks], #strong[Apache Spark], Azure Service Bus, Jinja, Fivetran, Witboost, #strong[Terraform], #strong[Data Mesh], Git.
+    - Technologies & Tools: #strong[Python], #strong[PySpark], #strong[SQL], #strong[Databricks], #strong[Apache Spark], Azure Service Bus, Jinja, Witboost, #strong[Terraform], Data Mesh, Git.
 
   ],
   [
@@ -172,14 +172,14 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    10 months
+    11 months
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Junior Software Developer], Cefriel -- Milan, Italy
+    #strong[Software Engineer], Cefriel -- Milan, Italy
 
     #summary[Backend software engineering for M4ESTRO, a Horizon Europe research project focused on resilient manufacturing ecosystems and intelligent supply chains.]
 
@@ -197,7 +197,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Python], #strong[Scikit-Learn], #strong[AWS] Lambda, #strong[AWS] CDK, #strong[SQL], #strong[Graph Theory], #strong[Machine Learning].
+    - Technologies & Tools: #strong[Python], Scikit-Learn, #strong[AWS] Lambda, #strong[AWS] CDK, #strong[SQL], #strong[Graph Theory], Machine Learning.
 
   ],
   [
@@ -214,7 +214,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
   [
     #strong[IT Consultant | Software Engineer], Andreoli Nastri S.n.c. -- Cologno Monzese, Italy
 
-    #summary[Designed and developed a complete desktop business application for an Italian manufacturing SME, managing the project from requirements analysis through architecture, implementation and deployment.]
+    #summary[Designed and developed a complete desktop business application for a manufacturing SME, managing the project from requirements analysis through architecture, implementation and deployment.]
 
     
 
@@ -222,7 +222,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Designed the relational database model using Spring Data JPA, #strong[Hibernate] and #strong[PostgreSQL].
+    - Designed the relational database model using Spring Data JPA, Hibernate and #strong[PostgreSQL].
 
     
 
@@ -230,7 +230,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Java], #strong[Spring Boot], #strong[Java] Swing, #strong[Hibernate], #strong[PostgreSQL], Neon, Flyway.
+    - Technologies: #strong[Java], #strong[Spring Boot], #strong[Java] Swing, Hibernate, #strong[PostgreSQL], Neon, Flyway.
 
   ],
   [
@@ -257,11 +257,11 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Designed backend services, #strong[REST APIs] and optimized persistence for geospatial workloads.
+    - Designed backend services, REST APIs and optimized persistence for geospatial workloads.
 
     
 
-    - Technologies: #strong[Java], #strong[Spring Boot], #strong[PostgreSQL], #strong[MongoDB], #strong[Docker], #strong[Kubernetes].
+    - Technologies: #strong[Java], #strong[Spring Boot], #strong[PostgreSQL], #strong[MongoDB], ActiveMQ, #strong[Docker], #strong[Kubernetes].
 
   ],
   [
@@ -290,7 +290,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Python], #strong[Scikit-Learn], #strong[SQL], #strong[Graph Theory].
+    - Technologies: #strong[Python], Scikit-Learn, #strong[SQL], #strong[Graph Theory], #strong[AWS].
 
   ],
   [
@@ -311,7 +311,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Implemented the Wavefront sequence alignment algorithm in #strong[Rust] for graph-based genome representations.
+    - Developed and implemented the Wavefront sequence alignment algorithm in #strong[Rust] for graph-based genome representations.
 
     
 
@@ -319,7 +319,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Rust], #strong[Algorithms], Graph #strong[Algorithms].
+    - Technologies: #strong[Rust], Bioinformatics, #strong[Algorithms], Graph #strong[Algorithms].
 
   ],
   [
@@ -336,15 +336,15 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
 #strong[Programming Languages:] #strong[Java], #strong[Python], C++, #strong[Rust], #strong[SQL]
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Software Engineering]#sym.ast.basic#h(0pt, weak: true) :] #strong[Java], #strong[Spring Boot], #strong[REST APIs], #strong[Microservices], #strong[Distributed Systems], Software Architecture
+#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Software Engineering]#sym.ast.basic#h(0pt, weak: true) :] #strong[Java], #strong[Spring Boot], REST APIs, #strong[Microservices], #strong[Distributed Systems], Software Architecture
 
-#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Data Engineering]#sym.ast.basic#h(0pt, weak: true) :] #strong[Python], #strong[Apache Spark], #strong[PySpark], #strong[Databricks], #strong[SQL], ETL Pipelines, #strong[Data Mesh]
+#strong[#emph[#sym.ast.basic#h(0pt, weak: true) Data Engineering]#sym.ast.basic#h(0pt, weak: true) :] #strong[Python], #strong[Apache Spark], #strong[PySpark], #strong[Databricks], #strong[SQL], ETL Pipelines, Data Mesh
 
 #strong[Databases:] #strong[PostgreSQL], #strong[MongoDB], #strong[Neo4j], BigQuery
 
 #strong[Cloud:] #strong[Docker], #strong[Kubernetes], #strong[Terraform], #strong[AWS], Git, Linux
 
-#strong[Computer Science:] #strong[Algorithms], #strong[Data Structures], #strong[Graph Theory], #strong[Machine Learning]
+#strong[Computer Science:] #strong[Algorithms], #strong[Data Structures], #strong[Graph Theory], Machine Learning
 
 == Languages
 
