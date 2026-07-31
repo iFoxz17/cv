@@ -149,7 +149,7 @@ cv:
             scalable, low-cost cloud deployment for a small business.
 
           - >
-            Technologies: Java, Spring Boot, Java Swing, Hibernate,
+            Technologies & Tools: Java, Spring Boot, Java Swing, Hibernate,
             PostgreSQL, Neon, Flyway.
 
 #    - company: GreenChemicals S.r.l.
@@ -187,7 +187,7 @@ cv:
             for geospatial workloads.
 
           - >
-            Technologies: Java, Spring Boot, PostgreSQL, MongoDB, ActiveMQ,
+            Technologies & Tools: Java, Spring Boot, PostgreSQL, MongoDB, ActiveMQ,
             Docker, Kubernetes.
 
       - name: "[Supply Chain Delay Prediction](https://github.com/iFoxz17/sc-delay-prediction)"
@@ -210,7 +210,7 @@ cv:
             collected within the M4ESTRO Horizon Europe project.
 
           - >
-            Technologies: Python, Scikit-Learn, SQL, Graph Theory, AWS.
+            Technologies & Tools: Python, Scikit-Learn, SQL, Graph Theory, AWS.
 
       - name: "[Wavefront Algorithm for Sequence Alignment](https://github.com/iFoxz17/WF_Recgraph)"
         start_date: 2023-02
@@ -230,7 +230,7 @@ cv:
             Studied optimization strategies for graph algorithms and memory usage.
 
           - >
-            Technologies: Rust, Bioinformatics, Algorithms, Graph Algorithms.
+            Technologies & Tools: Rust, Bioinformatics, Algorithms, Graph Theory.
 
 #      - name: "[AlgoVault](https://github.com/iFoxz17/algovault)"
 #        start_date: 2025-11
@@ -248,7 +248,7 @@ cv:
 #          - Heaps.
 #          - Advanced STL-like containers.
 #
-#          Technologies: C++20.
+#          Technologies & Tools & Tools: C++20.
 
 #      - name: PascalVOC2012 Image Recognition
 #
@@ -260,7 +260,7 @@ cv:
 #          - Built CNN architectures from scratch.
 #          - Applied transfer learning.
 #          - Investigated self-supervised learning.
-#          - Technologies: TensorFlow, Keras.
+#          - Technologies & Tools: TensorFlow, Keras.
     
 #    publications:
 #      - title: Hybrid Graph-Based Machine Learning Framework for Predicting Delays in Supply Chain Logistics
