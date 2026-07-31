@@ -230,7 +230,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Java], #strong[Spring Boot], #strong[Java] Swing, Hibernate, #strong[PostgreSQL], Neon, Flyway.
+    - Technologies & Tools: #strong[Java], #strong[Spring Boot], #strong[Java] Swing, Hibernate, #strong[PostgreSQL], Neon, Flyway.
 
   ],
   [
@@ -261,7 +261,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Java], #strong[Spring Boot], #strong[PostgreSQL], #strong[MongoDB], ActiveMQ, #strong[Docker], #strong[Kubernetes].
+    - Technologies & Tools: #strong[Java], #strong[Spring Boot], #strong[PostgreSQL], #strong[MongoDB], ActiveMQ, #strong[Docker], #strong[Kubernetes].
 
   ],
   [
@@ -290,7 +290,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Python], Scikit-Learn, #strong[SQL], #strong[Graph Theory], #strong[AWS].
+    - Technologies & Tools: #strong[Python], Scikit-Learn, #strong[SQL], #strong[Graph Theory], #strong[AWS].
 
   ],
   [
@@ -319,7 +319,7 @@ Software Engineer with experience in distributed systems, data-intensive applica
 
     
 
-    - Technologies: #strong[Rust], Bioinformatics, #strong[Algorithms], Graph #strong[Algorithms].
+    - Technologies & Tools: #strong[Rust], Bioinformatics, #strong[Algorithms], #strong[Graph Theory].
 
   ],
   [

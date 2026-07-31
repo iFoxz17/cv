@@ -117,7 +117,7 @@ Designed and developed a complete desktop business application for a manufacturi
 
 
 
-- Technologies: **Java**, **Spring Boot**, **Java** Swing, Hibernate, **PostgreSQL**, Neon, Flyway.
+- Technologies & Tools: **Java**, **Spring Boot**, **Java** Swing, Hibernate, **PostgreSQL**, Neon, Flyway.
 
 
 
@@ -142,7 +142,7 @@ Cloud-native distributed platform for the safe integration of drones into Europe
 
 
 
-- Technologies: **Java**, **Spring Boot**, **PostgreSQL**, **MongoDB**, ActiveMQ, **Docker**, **Kubernetes**.
+- Technologies & Tools: **Java**, **Spring Boot**, **PostgreSQL**, **MongoDB**, ActiveMQ, **Docker**, **Kubernetes**.
 
 
 
@@ -166,7 +166,7 @@ Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO project. 
 
 
 
-- Technologies: **Python**, Scikit-Learn, **SQL**, **Graph Theory**, **AWS**.
+- Technologies & Tools: **Python**, Scikit-Learn, **SQL**, **Graph Theory**, **AWS**.
 
 
 
@@ -190,7 +190,7 @@ Bachelor's thesis implementing a **Rust** prototype of the Wavefront algorithm f
 
 
 
-- Technologies: **Rust**, Bioinformatics, **Algorithms**, Graph **Algorithms**.
+- Technologies & Tools: **Rust**, Bioinformatics, **Algorithms**, **Graph Theory**.
 
 
 
