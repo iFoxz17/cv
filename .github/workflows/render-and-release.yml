@@ -34,7 +34,7 @@ jobs:
 
       - name: Render CV
         run: |
-          rendercv render mattia_volpato_CV.yaml --output-folder rendercv_output
+          rendercv render mattia_volpato_cv.yaml --output-folder rendercv_output
 
       - name: Get version from timestamp
         id: version
