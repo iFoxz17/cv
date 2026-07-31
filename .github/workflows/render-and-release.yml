@@ -18,30 +18,30 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.13'   # rendercv requires >=3.12; on 3.11 pip silently falls back to the last-compatible 2.3, which is broken
+          python-version: '3.13'   # RenderCV requires >=3.12
 
       - name: Install RenderCV and dependencies
         run: |
-          pip install --upgrade pip setuptools wheel
-          pip install --no-cache-dir -r requirements.txt
+          python -m pip install --upgrade pip setuptools wheel
+          python -m pip install --no-cache-dir -r requirements.txt
           rendercv --version
 
       - name: Render CV
         run: |
           rendercv render mattia_volpato_cv.yaml --output-folder rendercv_output
 
-      - name: Get version from timestamp
+      - name: Get version
         id: version
         run: |
-          echo "version=$(date +'%Y.%m.%d')" >> "$GITHUB_OUTPUT"
+          echo "version=$(date +'%Y.%m.%d')-${GITHUB_SHA::7}" >> "$GITHUB_OUTPUT"
 
       - name: Create Release and Upload Assets
-        uses: softprops/action-gh-release@v2
+        uses: softprops/action-gh-release@v3
         with:
           tag_name: v${{ steps.version.outputs.version }}
           name: CV Release - ${{ steps.version.outputs.version }}
@@ -58,7 +58,7 @@ jobs:
             ./rendercv_output/mattia_volpato_cv.pdf
             ./rendercv_output/mattia_volpato_cv.md
             ./rendercv_output/mattia_volpato_cv.html
-            
+
       - name: Commit rendered files to repo
         run: |
           git config --local user.email "action@github.com"
