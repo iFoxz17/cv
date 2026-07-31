@@ -4,8 +4,9 @@ on:
   push:
     branches:
       - main
+      - dev
     paths:
-      - 'Mattia_Volpato_CV.yaml'
+      - 'mattia_volpato_CV.yaml'
       - '.github/workflows/render-and-release.yml'
       - 'requirements.txt'
 
@@ -33,7 +34,7 @@ jobs:
 
       - name: Render CV
         run: |
-          rendercv render Mattia_Volpato_CV.yaml --output-folder rendercv_output
+          rendercv render mattia_volpato_CV.yaml --output-folder rendercv_output
 
       - name: Get version from timestamp
         id: version
@@ -55,11 +56,11 @@ jobs:
             - Markdown version
             - HTML version
           files: |
-            ./rendercv_output/Mattia_Volpato_CV.pdf
-            ./rendercv_output/Mattia_Volpato_CV.md
-            ./rendercv_output/Mattia_Volpato_CV.html
+            ./rendercv_output/mattia_volpato_CV.pdf
+            ./rendercv_output/mattia_volpato_CV.md
+            ./rendercv_output/mattia_volpato_CV.html
             
-      - name: Commit rendered files to repo (optional)
+      - name: Commit rendered files to repo
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
