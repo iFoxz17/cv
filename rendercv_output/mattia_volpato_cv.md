@@ -8,27 +8,25 @@
 
 
 # Summary
-Software Engineer with experience in distributed systems, data-intensive applications and cloud-native software. Currently working as a Data Engineer at Quantyca, Data at Core, developing enterprise-scale data platforms while maintaining a strong focus on software engineering, algorithms and system design. Interested in advanced algorithms and data structures, distributed systems  and large-scale software infrastructures.
+Data Engineer with a strong software engineering focus,  working on distributed systems and data-intensive applications.  Experience developing scalable data platforms and distributed processing workloads  using **Python**, **PySpark**, **Databricks** and cloud technologies,  alongside software engineering experience in **Java**, AWS and microservices.  Strong computer science background in algorithms, data structures and graph theory.
 
 
 # Education
 ## **University of Milano Bicocca**, Master of Science in Computer Science -- Milan, Italy
 Oct 2023 – Sept 2025
 
-Final Grade 110/110 cum laude
+110/110 cum laude
 
-- 'Thesis: Delay Prediction in Supply Chains
-
-  - A Hybrid Graph-Based and Machine Learning Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.'
+- Thesis: [Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach](https://github.com/iFoxz17/sc-delay-prediction). Developed at Cefriel as part of the M4ESTRO Horizon Europe project.
 
 
 
 ## **University of Milano Bicocca**, Bachelor of Science in Computer Science -- Milan, Italy
 Sept 2020 – July 2023
 
-Final Grade 110/110 cum laude
+110/110 cum laude
 
-- 'Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a **Rust** prototype for efficient graph-based sequence alignment.'
+- Thesis: [Wavefront Algorithm for Recombination Detection](https://github.com/iFoxz17/WF_Recgraph). Implemented a Rust prototype for graph-based sequence alignment.
 
 
 
@@ -41,31 +39,19 @@ Oct 2025 – present
 
 11 months
 
-Data Engineer designing scalable software and data-intensive platforms for enterprise customers, combining backend engineering, distributed computing and modern data engineering practices.
+Data Engineer working on scalable data-intensive systems and enterprise data platforms for clients including [Prelios](https://prelios.com/it) and [TeamSystem](https://www.teamsystem.com/), with a focus on distributed processing, software development and maintainable data solutions.
 
 
 
-- Developed a scalable alerting platform for Prelios on **Databricks**, designing a YAML-to-Jinja framework with schema validation and type checking to generate maintainable alert definitions.
+- For Prelios, developed a configuration-driven alerting system on **Databricks**, supporting 32 configurable alert logics and 54 deployed alerts. Developed reusable **Python** libraries for Jinja-based templating and Azure Service Bus integration, and a distributed **PySpark** pipeline to render, execute and persist alert results, with typical execution times of 10–20s per alert and publishing 1K-10K messages through Azure Service Bus.
 
 
 
-- Implemented the distributed execution engine, executing parameterized **PySpark**/**SQL** workloads safely and publishing alerts through Azure Service Bus while optimizing distributed query performance.
+- For TeamSystem, developed and maintained 9 enterprise data products within a Data Mesh, processing gigabytes-to-terabytes of data from sources including Jira, GitHub and security platforms.  Used **Databricks**, **PySpark**, **SQL** and Terraform to build and improve data pipelines, datasets, metrics and dashboards,  with a focus on performance and resilience.
 
 
 
-- Designed and maintained enterprise data products for TeamSystem, covering the complete lifecycle from ingestion and transformation to analytics within a Data Mesh architecture.
-
-
-
-- Built scalable ETL pipelines and analytical workloads using **Databricks**, **Apache Spark**, **PySpark** and **SQL**, improving data quality, governance and self-service analytics.
-
-
-
-- Technologies & Tools: **Python**, **PySpark**, **SQL**, **Databricks**, **Apache Spark**, Azure Service Bus, Jinja, Witboost, **Terraform**, Data Mesh, Git.
-
-
-
-## **Software Engineer**, Cefriel -- Milan, Italy
+## **Software Engineer Intern**, Cefriel -- Milan, Italy
 
 Feb 2025 – Sept 2025
 
@@ -73,27 +59,19 @@ Feb 2025 – Sept 2025
 
 8 months
 
-Backend software engineering for M4ESTRO, a Horizon Europe research project focused on resilient manufacturing ecosystems and intelligent supply chains.
+Software engineering internship within M4ESTRO, a Horizon Europe research project focused on resilient manufacturing ecosystems and intelligent supply chains.
 
 
 
-- Designed graph-based models and machine learning pipelines for delay prediction and resilience analysis in industrial supply chains.
+- Designed and evaluated a graph-based model for shipment delivery-time prediction in a single-manufacturer supply chain network, combining graph theory, Markov chains and machine learning.
 
 
 
-- Developed cloud-native microservices using **Python**, **AWS** Lambda and **AWS** CDK.
+- Implemented and deployed the model as an working prototype within the M4ESTRO platform using **Python**, AWS Lambda and AWS CDK, contributing across the software lifecycle from requirements analysis through deployment, using real industrial data.
 
 
 
-- Contributed throughout the software lifecycle from requirements analysis to deployment within a Horizon Europe research project.
-
-
-
-- Technologies & Tools: **Python**, Scikit-Learn, **AWS** Lambda, **AWS** CDK, **SQL**, **Graph Theory**, Machine Learning.
-
-
-
-## **IT Consultant | Software Engineer**, Andreoli Nastri S.n.c. -- Cologno Monzese, Italy
+## **Freelance Software Engineer Consultant**, Andreoli Nastri S.n.c. -- Cologno Monzese, Italy
 
 July 2024 – June 2026
 
@@ -101,23 +79,22 @@ July 2024 – June 2026
 
 2 years
 
-Designed and developed a complete desktop business application for a manufacturing SME, managing the project from requirements analysis through architecture, implementation and deployment.
+Developed a complete desktop business application for a small manufacturing SME, working directly with the customer from requirements analysis through architecture, implementation and deployment. Designed the solution around the expected usage, avoiding unnecessary architectural complexity and costs.
 
 
 
-- Developed a complete desktop application using **Java**, **Spring Boot** and **Java** Swing, integrating UI, business logic and persistence.
+- Designed and developed the application using **Java**, **Spring Boot** and Swing, integrating the user interface, business logic and persistence layers, with CI/CD workflows for automated testing and deployment.
 
 
 
-- Designed the relational database model using Spring Data JPA, Hibernate and **PostgreSQL**.
+- Designed and implemented the relational data layer using Spring Data JPA, Hibernate and PostgreSQL, with Neon Serverless PostgreSQL and Flyway for database deployment and migrations.
 
 
 
-- Adopted Neon Serverless **PostgreSQL** and Flyway migrations to provide scalable, low-cost cloud deployment for a small business.
+# Certifications
+## **[**Databricks** Certified Data Engineer Associate](https://credentials.databricks.com/3901345e-eeb0-43ab-8587-ce946010a4e3#acc.cKrhBwLi)**
 
-
-
-- Technologies & Tools: **Java**, **Spring Boot**, **Java** Swing, Hibernate, **PostgreSQL**, Neon, Flyway.
+Dec 2025
 
 
 
@@ -130,23 +107,23 @@ Nov 2024 – May 2025
 
 7 months
 
-Cloud-native distributed platform for the safe integration of drones into European airspace. Master's software engineering project focused on distributed systems, autonomous operations and safety-critical software.
+Cloud-native distributed platform for the safe integration of drones into European airspace, developed as a Master's software engineering project with a focus on distributed systems and safety-critical software.
 
 
 
-- Developed distributed microservices for flight authorization, geo-awareness, weather information and UAV simulation.
+- Designed and implemented the flight-plan computation module using graph traversal algorithms for real-time, safety-critical route planning.
 
 
 
-- Designed backend services, REST APIs and optimized persistence for geospatial workloads.
+- Contributed to microservices for flight authorization, geo-awareness and UAV simulation, applying hexagonal architecture to decouple business logic from external integrations.
 
 
 
-- Technologies & Tools: **Java**, **Spring Boot**, **PostgreSQL**, **MongoDB**, ActiveMQ, **Docker**, **Kubernetes**.
+- Set up CI/CD pipelines to automatically build and deploy services to a Kubernetes cluster, later consolidating to Docker-only when the underlying VM infrastructure was decommissioned.
 
 
 
-## **[Supply Chain Delay Prediction](https://github.com/iFoxz17/sc-delay-prediction)**
+## **[Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach](https://github.com/iFoxz17/sc-delay-prediction)**
 
 Feb 2025 – Sept 2025
 
@@ -154,19 +131,15 @@ Feb 2025 – Sept 2025
 
 8 months
 
-Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO project. Research combining graph theory and machine learning for predictive analysis of complex supply chain networks. Results are expected to contribute to an Open Research Europe publication.
+Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO project, combining graph-based modelling and machine learning for shipment delay prediction using industrial supply chain data.
 
 
 
-- Modelled supply chain networks as graphs and developed machine learning models for delay prediction.
+- Modelled supply chain networks as graphs and developed a hybrid prediction approach combining graph-based methods, Markov chains and machine learning.
 
 
 
-- Evaluated graph-based and statistical approaches using industrial data collected within the M4ESTRO Horizon Europe project.
-
-
-
-- Technologies & Tools: **Python**, Scikit-Learn, **SQL**, **Graph Theory**, **AWS**.
+- Evaluated the approach against statistical and graph-based methods using industrial data from a manufacturing supply chain.
 
 
 
@@ -178,34 +151,28 @@ Feb 2023 – July 2023
 
 6 months
 
-Bachelor's thesis implementing a **Rust** prototype of the Wavefront algorithm for sequence alignment over graph-based genome representations.
+Bachelor's thesis implementing a Rust prototype of the Wavefront algorithm for sequence alignment over graph-based genome representations.
 
 
 
-- Developed and implemented the Wavefront sequence alignment algorithm in **Rust** for graph-based genome representations.
+- Implemented the Wavefront sequence alignment algorithm in Rust for graph-based genome representations.
 
 
 
-- Studied optimization strategies for graph algorithms and memory usage.
-
-
-
-- Technologies & Tools: **Rust**, Bioinformatics, **Algorithms**, **Graph Theory**.
+- Explored algorithmic optimizations with a focus on computational efficiency and memory usage.
 
 
 
 # Skills
-**Programming Languages:** **Java**, **Python**, C++, **Rust**, **SQL**
+**Programming:** **Python**, **Java**, C++, Rust, **SQL**
 
-****Software Engineering**:** **Java**, **Spring Boot**, REST APIs, **Microservices**, **Distributed Systems**, Software Architecture
+**Distributed Systems & Data Processing:** Apache Spark, **Databricks**, Azure Service Bus, ActiveMQ
 
-****Data Engineering**:** **Python**, **Apache Spark**, **PySpark**, **Databricks**, **SQL**, ETL Pipelines, Data Mesh
+**Software Engineering:** **Spring Boot**, Hibernate, FastAPI, SQLAlchemy, REST APIs, Microservices
 
-**Databases:** **PostgreSQL**, **MongoDB**, **Neo4j**, BigQuery
+**Cloud & Infrastructure:** AWS, Azure, Docker, Kubernetes, Terraform, Linux
 
-**Cloud:** **Docker**, **Kubernetes**, **Terraform**, **AWS**, Git, Linux
-
-**Computer Science:** **Algorithms**, **Data Structures**, **Graph Theory**, Machine Learning
+**Databases:** PostgreSQL, MongoDB, BigQuery
 
 # Languages
 **Italian:** Native
