@@ -3,7 +3,7 @@
 cv:
   name: Mattia Volpato
 
-  headline: Software Engineer | Data Engineering • Algorithms & Data Structures • Distributed Systems 
+  headline: Data Engineer | Software Engineer • Algorithms & Data Structures • Distributed Systems 
 
   location: Biassono, Monza, Italy
 
@@ -28,39 +28,40 @@ cv:
 
     summary:
       - >
-        Software Engineer with experience in distributed systems, data-intensive
-        applications and cloud-native software. Currently working as a Data
-        Engineer at Quantyca, Data at Core, developing enterprise-scale data platforms while
-        maintaining a strong focus on software engineering, algorithms and system
-        design. Interested in advanced algorithms and data structures, distributed systems 
-        and large-scale software infrastructures.
+        Data Engineer with a strong software engineering focus, 
+        working on distributed systems and data-intensive applications. 
+        Experience developing scalable data platforms and distributed processing workloads 
+        using Python, PySpark, Databricks and cloud technologies, 
+        alongside software engineering experience in Java, AWS and microservices. 
+        Strong computer science background in algorithms, data structures and graph theory.
         
     education:
-      
-      - institution: University of Milano Bicocca
-        area: Computer Science
-        degree: Master of Science
-        date:
-        start_date: 2023-10
-        end_date: 2025-09
-        location: Milan, Italy
-        summary: Final Grade 110/110 cum laude
-        highlights:
-          - >
-            'Thesis: Delay Prediction in Supply Chains - A Hybrid Graph-Based and Machine Learning Approach. Developed at Cefriel within the M4ESTRO Horizon Europe project.'
-      
-      - institution: University of Milano Bicocca
-        area: Computer Science
-        degree: Bachelor of Science
-        date:
-        start_date: 2020-09
-        end_date: 2023-07
-        location: Milan, Italy
-        summary: Final Grade 110/110 cum laude
-        highlights:
-          - >
-            'Thesis: Wavefront algorithm for sequence alignment on graph structures. Developed a Rust prototype for efficient graph-based sequence alignment.'
-    
+
+    - institution: University of Milano Bicocca
+      area: Computer Science
+      degree: Master of Science
+      start_date: 2023-10
+      end_date: 2025-09
+      location: Milan, Italy
+      summary: 110/110 cum laude
+      highlights:
+        - >
+          Thesis: [Delay Prediction in Supply Chains — A Hybrid Graph-Based and
+          Machine Learning Approach](https://github.com/iFoxz17/sc-delay-prediction).
+          Developed at Cefriel as part of the M4ESTRO Horizon Europe project.
+
+    - institution: University of Milano Bicocca
+      area: Computer Science
+      degree: Bachelor of Science
+      start_date: 2020-09
+      end_date: 2023-07
+      location: Milan, Italy
+      summary: 110/110 cum laude
+      highlights:
+        - >
+          Thesis: [Wavefront Algorithm for Recombination Detection](https://github.com/iFoxz17/WF_Recgraph).
+          Implemented a Rust prototype for graph-based sequence alignment.
+          
     experience:
 
       - company: Quantyca | Data at Core
@@ -69,88 +70,63 @@ cv:
         end_date: present
         location: Monza, Italy
         summary: >
-          Data Engineer designing scalable software and data-intensive
-          platforms for enterprise customers, combining backend engineering,
-          distributed computing and modern data engineering practices.
-
+          Data Engineer working on scalable data-intensive systems and enterprise
+          data platforms for clients including [Prelios](https://prelios.com/it) and
+          [TeamSystem](https://www.teamsystem.com/), with a focus on distributed
+          processing, software development and maintainable data solutions.
+        
         highlights:
           - >
-            Developed a scalable alerting platform for Prelios on Databricks,
-            designing a YAML-to-Jinja framework with schema validation and
-            type checking to generate maintainable alert definitions.
-
+            For Prelios, developed a configuration-driven alerting system on Databricks,
+            supporting 32 configurable alert logics and 54 deployed alerts. Developed
+            reusable Python libraries for Jinja-based templating and Azure Service Bus
+            integration, and a distributed PySpark pipeline to render, execute and persist
+            alert results, with typical execution times of 10–20s per alert and publishing 1K-10K messages
+            through Azure Service Bus.
           - >
-            Implemented the distributed execution engine, executing parameterized
-            PySpark/SQL workloads safely and publishing alerts through Azure
-            Service Bus while optimizing distributed query performance.
-
-          - >
-            Designed and maintained enterprise data products for TeamSystem,
-            covering the complete lifecycle from ingestion and transformation
-            to analytics within a Data Mesh architecture.
-
-          - >
-            Built scalable ETL pipelines and analytical workloads using
-            Databricks, Apache Spark, PySpark and SQL, improving data quality,
-            governance and self-service analytics.
-
-          - >
-            Technologies & Tools: Python, PySpark, SQL, Databricks, Apache Spark,
-            Azure Service Bus, Jinja, Witboost, Terraform, Data Mesh, Git.
+            For TeamSystem, developed and maintained 9 enterprise data products within a Data Mesh,
+            processing gigabytes-to-terabytes of data from sources including Jira, GitHub and security platforms. 
+            Used Databricks, PySpark, SQL and Terraform to build and improve data pipelines, datasets, metrics and dashboards, 
+            with a focus on performance and resilience.
 
       - company: Cefriel
-        position: Software Engineer
+        position: Software Engineer Intern
         start_date: 2025-02
         end_date: 2025-09
         location: Milan, Italy
         summary: >
-          Backend software engineering for M4ESTRO, a Horizon Europe research
+          Software engineering internship within M4ESTRO, a Horizon Europe research
           project focused on resilient manufacturing ecosystems and intelligent
           supply chains.
-
         highlights:
           - >
-            Designed graph-based models and machine learning pipelines for delay
-            prediction and resilience analysis in industrial supply chains.
-
+            Designed and evaluated a graph-based model for shipment delivery-time prediction
+            in a single-manufacturer supply chain network, combining graph theory, Markov chains
+            and machine learning.
           - >
-            Developed cloud-native microservices using Python, AWS Lambda and AWS CDK.
-
-          - >
-            Contributed throughout the software lifecycle from requirements analysis
-            to deployment within a Horizon Europe research project.
-
-          - >
-            Technologies & Tools: Python, Scikit-Learn, AWS Lambda, AWS CDK,
-            SQL, Graph Theory, Machine Learning.
-
+            Implemented and deployed the model as an working prototype within the M4ESTRO
+            platform using Python, AWS Lambda and AWS CDK, contributing across the software lifecycle from requirements
+            analysis through deployment, using real industrial data.
+                
       - company: Andreoli Nastri S.n.c.
-        position: IT Consultant | Software Engineer
+        position: Freelance Software Engineer Consultant
         start_date: 2024-07
         end_date: 2026-06
         location: Cologno Monzese, Italy
-
         summary: >
-          Designed and developed a complete desktop business application for a
-          manufacturing SME, managing the project from requirements
-          analysis through architecture, implementation and deployment.
-
+          Developed a complete desktop business application for a small manufacturing SME,
+          working directly with the customer from requirements analysis through architecture,
+          implementation and deployment. Designed the solution around the expected usage,
+          avoiding unnecessary architectural complexity and costs.
         highlights:
           - >
-            Developed a complete desktop application using Java, Spring Boot and
-            Java Swing, integrating UI, business logic and persistence.
-
+            Designed and developed the application using Java, Spring Boot and Swing,
+            integrating the user interface, business logic and persistence layers, with
+            CI/CD workflows for automated testing and deployment.
           - >
-            Designed the relational database model using Spring Data JPA,
-            Hibernate and PostgreSQL.
-
-          - >
-            Adopted Neon Serverless PostgreSQL and Flyway migrations to provide
-            scalable, low-cost cloud deployment for a small business.
-
-          - >
-            Technologies & Tools: Java, Spring Boot, Java Swing, Hibernate,
-            PostgreSQL, Neon, Flyway.
+            Designed and implemented the relational data layer using Spring Data JPA,
+            Hibernate and PostgreSQL, with Neon Serverless PostgreSQL and Flyway for
+            database deployment and migrations.
 
 #    - company: GreenChemicals S.r.l.
 #      position: IT Consultant
@@ -165,73 +141,68 @@ cv:
 #        - Python automation.
 #        - Excel integration.
 
+    certifications:
+    
+      - name: '[Databricks Certified Data Engineer Associate](https://credentials.databricks.com/3901345e-eeb0-43ab-8587-ce946010a4e3#acc.cKrhBwLi)'
+        date: 2025-12
+      
     projects:
+    - name: "[AeroFlux](https://github.com/alegil0206/AeroFlux)"
+      start_date: 2024-11
+      end_date: 2025-05
 
-      - name: "[AeroFlux](https://github.com/alegil0206/AeroFlux)"
-        start_date: 2024-11
-        end_date: 2025-05
+      summary: >
+        Cloud-native distributed platform for the safe integration of drones
+        into European airspace, developed as a Master's software engineering
+        project with a focus on distributed systems and safety-critical software.
 
-        summary: >
-          Cloud-native distributed platform for the safe integration of drones
-          into European airspace. Master's software engineering project focused
-          on distributed systems, autonomous operations and safety-critical
-          software.
+      highlights:
+        - >
+          Designed and implemented the flight-plan computation module using graph traversal
+          algorithms for real-time, safety-critical route planning.
+        - >
+          Contributed to microservices for flight authorization, geo-awareness
+          and UAV simulation, applying hexagonal architecture to decouple
+          business logic from external integrations.
+        - >
+          Set up CI/CD pipelines to automatically build and deploy services to
+          a Kubernetes cluster, later consolidating to Docker-only
+          when the underlying VM infrastructure was decommissioned.
 
-        highlights:
-          - >
-            Developed distributed microservices for flight authorization,
-            geo-awareness, weather information and UAV simulation.
+    - name: "[Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach](https://github.com/iFoxz17/sc-delay-prediction)"
+      start_date: 2025-02
+      end_date: 2025-09
 
-          - >
-            Designed backend services, REST APIs and optimized persistence
-            for geospatial workloads.
+      summary: >
+        Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO
+        project, combining graph-based modelling and machine learning for
+        shipment delay prediction using industrial supply chain data.
 
-          - >
-            Technologies & Tools: Java, Spring Boot, PostgreSQL, MongoDB, ActiveMQ,
-            Docker, Kubernetes.
+      highlights:
+        - >
+          Modelled supply chain networks as graphs and developed a hybrid
+          prediction approach combining graph-based methods, Markov chains
+          and machine learning.
+        - >
+          Evaluated the approach against statistical and graph-based methods
+          using industrial data from a manufacturing supply chain.
 
-      - name: "[Supply Chain Delay Prediction](https://github.com/iFoxz17/sc-delay-prediction)"
-        start_date: 2025-02
-        end_date: 2025-09
+    - name: "[Wavefront Algorithm for Sequence Alignment](https://github.com/iFoxz17/WF_Recgraph)"
+      start_date: 2023-02
+      end_date: 2023-07
 
-        summary: >
-          Master's thesis developed at Cefriel within the Horizon Europe
-          M4ESTRO project. Research combining graph theory and machine learning
-          for predictive analysis of complex supply chain networks. Results are
-          expected to contribute to an Open Research Europe publication.
+      summary: >
+        Bachelor's thesis implementing a Rust prototype of the Wavefront
+        algorithm for sequence alignment over graph-based genome representations.
 
-        highlights:
-          - >
-            Modelled supply chain networks as graphs and developed machine
-            learning models for delay prediction.
-
-          - >
-            Evaluated graph-based and statistical approaches using industrial data
-            collected within the M4ESTRO Horizon Europe project.
-
-          - >
-            Technologies & Tools: Python, Scikit-Learn, SQL, Graph Theory, AWS.
-
-      - name: "[Wavefront Algorithm for Sequence Alignment](https://github.com/iFoxz17/WF_Recgraph)"
-        start_date: 2023-02
-        end_date: 2023-07
-
-        summary: >
-          Bachelor's thesis implementing a Rust prototype of the Wavefront
-          algorithm for sequence alignment over graph-based genome
-          representations.
-
-        highlights:
-          - >
-            Developed and implemented the Wavefront sequence alignment algorithm in Rust
-            for graph-based genome representations.
-
-          - >
-            Studied optimization strategies for graph algorithms and memory usage.
-
-          - >
-            Technologies & Tools: Rust, Bioinformatics, Algorithms, Graph Theory.
-
+      highlights:
+        - >
+          Implemented the Wavefront sequence alignment algorithm in Rust
+          for graph-based genome representations.
+        - >
+          Explored algorithmic optimizations with a focus on computational
+          efficiency and memory usage.
+          
 #      - name: "[AlgoVault](https://github.com/iFoxz17/algovault)"
 #        start_date: 2025-11
 #        end_date: present
@@ -288,37 +259,27 @@ cv:
 #    selected_honors:
 #      - bullet: ...
 
-
     skills:
 
-      - label: Programming Languages
+      - label: Programming
         details: >
-          Java, Python, C++, Rust, SQL
+          Python, Java, C++, Rust, SQL
+
+      - label: Distributed Systems & Data Processing
+        details: >
+          Apache Spark, Databricks, Azure Service Bus, ActiveMQ
 
       - label: Software Engineering
         details: >
-          Java, Spring Boot, REST APIs, Microservices,
-          Distributed Systems, Software Architecture
+          Spring Boot, Hibernate, FastAPI, SQLAlchemy, REST APIs, Microservices
 
-      - label: Data Engineering
+      - label: Cloud & Infrastructure
         details: >
-          Python, Apache Spark, PySpark, Databricks,
-          SQL, ETL Pipelines, Data Mesh
+          AWS, Azure, Docker, Kubernetes, Terraform, Linux
 
       - label: Databases
         details: >
-          PostgreSQL, MongoDB, Neo4j, BigQuery
-
-      - label: Cloud
-        details: >
-          Docker, Kubernetes, Terraform,
-          AWS, Git, Linux
-
-      - label: Computer Science
-        details: >
-          Algorithms, Data Structures,
-          Graph Theory, Machine Learning
-
+          PostgreSQL, MongoDB, BigQuery
 
     languages:
 
@@ -477,29 +438,11 @@ settings:
     dont_generate_png: false
 
   bold_keywords:
-    - Java
     - Python
-    - C++
-    - Rust
+    - Java
     - Spring Boot
-    - Spring Framework
-    - PostgreSQL
-    - MongoDB
-    - Neo4j
     - SQL
-    - Algorithms
-    - Data Structures
-    - Graph Theory
-    - Distributed Systems
-    - Microservices
-    - Apache Spark
     - PySpark
     - Databricks
-    - Docker
-    - Kubernetes
-    - Terraform
-    - AWS
-    - Data Engineering
-    - Software Engineering
 
   pdf_title: Mattia Volpato - Curriculum Vitae
