@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 8,
-    day: 14,
+    day: 17,
   ),
 )
 
@@ -278,6 +278,31 @@ Data Engineer with a strong software engineering focus,  working on distributed 
     
 
     8 months
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[#link("https://github.com/iFoxz17/templisafe")[Templisafe]]
+
+    #summary[Open-source #strong[Python] library for safe, validated and configurable templating workflows, inspired by Infrastructure-as-Code principles.]
+
+    
+
+    - Designed an extensible software architecture with a minimal public API, schema validation, configurable data sources and pluggable template engines.
+
+    
+
+    - Applied modern #strong[Python] engineering practices, including Pydantic, type checking, automated testing, code quality checks, CI\/CD pipelines and package publishing workflows.
+
+  ],
+  [
+    Mar 2026 – present
+
+    
+
+    6 months
 
   ],
 )

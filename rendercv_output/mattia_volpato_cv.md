@@ -143,6 +143,26 @@ Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO project, 
 
 
 
+## **[Templisafe](https://github.com/iFoxz17/templisafe)**
+
+Mar 2026 – present
+
+
+
+6 months
+
+Open-source **Python** library for safe, validated and configurable templating workflows, inspired by Infrastructure-as-Code principles.
+
+
+
+- Designed an extensible software architecture with a minimal public API, schema validation, configurable data sources and pluggable template engines.
+
+
+
+- Applied modern **Python** engineering practices, including Pydantic, type checking, automated testing, code quality checks, CI/CD pipelines and package publishing workflows.
+
+
+
 ## **[Wavefront Algorithm for Sequence Alignment](https://github.com/iFoxz17/WF_Recgraph)**
 
 Feb 2023 – July 2023
