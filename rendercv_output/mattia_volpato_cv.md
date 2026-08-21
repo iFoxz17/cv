@@ -2,13 +2,13 @@
 
 - Phone: +39 342 695 4305
 - Email: [volpato.mattia.2001@gmail.com](mailto:volpato.mattia.2001@gmail.com)
-- Location: Biassono, Monza, Italy
+- Location: Monza, Italy
 - LinkedIn: [mattia-volpato](https://linkedin.com/in/mattia-volpato)
 - GitHub: [iFoxz17](https://github.com/iFoxz17)
 
 
 # Summary
-Data Engineer with a strong software engineering focus,  working on distributed systems and data-intensive applications.  Experience developing scalable data platforms and distributed processing workloads  using **Python**, **PySpark**, **Databricks** and cloud technologies,  alongside software engineering experience in **Java**, AWS and microservices.  Strong computer science background in algorithms, data structures and graph theory.
+Data Engineer with a strong software engineering focus,  working on distributed systems and data-intensive applications.  Experience developing scalable data platforms and distributed processing workloads  using **Python**, **PySpark**, **Databricks** and cloud technologies,  alongside software engineering experience in **Java**, AWS and microservices.  Strong computer science background in algorithms, data structures and graph theory. Open to relocation across Europe.
 
 
 # Education
@@ -17,7 +17,7 @@ Oct 2023 – Sept 2025
 
 110/110 cum laude
 
-- Thesis: [Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach](https://github.com/iFoxz17/sc-delay-prediction). Developed at Cefriel as part of the M4ESTRO Horizon Europe project.
+- Thesis: [Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach](https://github.com/iFoxz17/sc-delay-prediction). Developed at Cefriel as part of the [M4ESTRO Horizon Europe project](https://www.m4estro-project.eu/).
 
 
 
@@ -131,7 +131,7 @@ Feb 2025 – Sept 2025
 
 8 months
 
-Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO project, combining graph-based modelling and machine learning for shipment delay prediction using industrial supply chain data.
+Master's thesis developed at Cefriel within the [Horizon Europe M4ESTRO project](https://www.m4estro-project.eu/), combining graph-based modelling and machine learning for shipment delay prediction using industrial supply chain data.
 
 
 
@@ -163,7 +163,7 @@ Open-source **Python** library for safe, validated and configurable templating w
 
 
 
-## **[Wavefront Algorithm for Sequence Alignment](https://github.com/iFoxz17/WF_Recgraph)**
+## **[Wavefront Algorithm for Recombination Detection](https://github.com/iFoxz17/WF_Recgraph)**
 
 Feb 2023 – July 2023
 

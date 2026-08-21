@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 8,
-    day: 17,
+    day: 21,
   ),
 )
 
@@ -91,7 +91,7 @@
   #headline([Data Engineer | Software Engineer • Algorithms & Data Structures • Distributed Systems])
 
 #connections(
-  [#connection-with-icon("location-dot")[Biassono, Monza, Italy]],
+  [#connection-with-icon("location-dot")[Monza, Italy]],
   [#link("mailto:volpato.mattia.2001@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[volpato.mattia.2001\@gmail.com]]],
   [#link("tel:+39-342-695-4305", icon: false, if-underline: false, if-color: false)[#connection-with-icon("phone")[+39 342 695 4305]]],
   [#link("https://linkedin.com/in/mattia-volpato", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[mattia-volpato]]],
@@ -101,7 +101,7 @@
 
 == Summary
 
-Data Engineer with a strong software engineering focus,  working on distributed systems and data-intensive applications.  Experience developing scalable data platforms and distributed processing workloads  using #strong[Python], #strong[PySpark], #strong[Databricks] and cloud technologies,  alongside software engineering experience in #strong[Java], AWS and microservices.  Strong computer science background in algorithms, data structures and graph theory.
+Data Engineer with a strong software engineering focus,  working on distributed systems and data-intensive applications.  Experience developing scalable data platforms and distributed processing workloads  using #strong[Python], #strong[PySpark], #strong[Databricks] and cloud technologies,  alongside software engineering experience in #strong[Java], AWS and microservices.  Strong computer science background in algorithms, data structures and graph theory. Open to relocation across Europe.
 
 
 == Education
@@ -112,7 +112,7 @@ Data Engineer with a strong software engineering focus,  working on distributed 
 
     #summary[110\/110 cum laude]
 
-    - Thesis: #link("https://github.com/iFoxz17/sc-delay-prediction")[Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach]. Developed at Cefriel as part of the M4ESTRO Horizon Europe project.
+    - Thesis: #link("https://github.com/iFoxz17/sc-delay-prediction")[Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach]. Developed at Cefriel as part of the #link("https://www.m4estro-project.eu/")[M4ESTRO Horizon Europe project].
 
   ],
   [
@@ -261,7 +261,7 @@ Data Engineer with a strong software engineering focus,  working on distributed 
   [
     #strong[#link("https://github.com/iFoxz17/sc-delay-prediction")[Delay Prediction in Supply Chains — A Hybrid Graph-Based and Machine Learning Approach]]
 
-    #summary[Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO project, combining graph-based modelling and machine learning for shipment delay prediction using industrial supply chain data.]
+    #summary[Master's thesis developed at Cefriel within the #link("https://www.m4estro-project.eu/")[Horizon Europe M4ESTRO project], combining graph-based modelling and machine learning for shipment delay prediction using industrial supply chain data.]
 
     
 
@@ -309,7 +309,7 @@ Data Engineer with a strong software engineering focus,  working on distributed 
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/iFoxz17/WF_Recgraph")[Wavefront Algorithm for Sequence Alignment]]
+    #strong[#link("https://github.com/iFoxz17/WF_Recgraph")[Wavefront Algorithm for Recombination Detection]]
 
     #summary[Bachelor's thesis implementing a Rust prototype of the Wavefront algorithm for sequence alignment over graph-based genome representations.]
 
