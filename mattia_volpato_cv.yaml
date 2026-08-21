@@ -5,7 +5,7 @@ cv:
 
   headline: Data Engineer | Software Engineer • Algorithms & Data Structures • Distributed Systems 
 
-  location: Biassono, Monza, Italy
+  location: Monza, Italy
 
   email: volpato.mattia.2001@gmail.com
 
@@ -34,6 +34,7 @@ cv:
         using Python, PySpark, Databricks and cloud technologies, 
         alongside software engineering experience in Java, AWS and microservices. 
         Strong computer science background in algorithms, data structures and graph theory.
+        Open to relocation across Europe.
         
     education:
 
@@ -48,7 +49,7 @@ cv:
         - >
           Thesis: [Delay Prediction in Supply Chains — A Hybrid Graph-Based and
           Machine Learning Approach](https://github.com/iFoxz17/sc-delay-prediction).
-          Developed at Cefriel as part of the M4ESTRO Horizon Europe project.
+          Developed at Cefriel as part of the [M4ESTRO Horizon Europe project](https://www.m4estro-project.eu/).
 
     - institution: University of Milano Bicocca
       area: Computer Science
@@ -174,8 +175,8 @@ cv:
       end_date: 2025-09
 
       summary: >
-        Master's thesis developed at Cefriel within the Horizon Europe M4ESTRO
-        project, combining graph-based modelling and machine learning for
+        Master's thesis developed at Cefriel within the [Horizon Europe M4ESTRO
+        project](https://www.m4estro-project.eu/), combining graph-based modelling and machine learning for
         shipment delay prediction using industrial supply chain data.
 
       highlights:
@@ -205,7 +206,7 @@ cv:
           checking, automated testing, code quality checks, CI/CD pipelines and
           package publishing workflows.
 
-    - name: "[Wavefront Algorithm for Sequence Alignment](https://github.com/iFoxz17/WF_Recgraph)"
+    - name: "[Wavefront Algorithm for Recombination Detection](https://github.com/iFoxz17/WF_Recgraph)"
       start_date: 2023-02
       end_date: 2023-07
 
